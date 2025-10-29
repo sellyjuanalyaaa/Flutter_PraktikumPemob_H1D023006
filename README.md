@@ -18,10 +18,13 @@ Notifikasi Kosong: Menampilkan pesan saat daftar belanja kosong.
 # Cara Kerja Pengembangan Kode
 Pengembangan aplikasi ini mengikuti prinsip dasar widget-based dari Flutter dan menggunakan manajemen status lokal:
 Komponen Utama (Widget Hierarchy)
-     ShoppingListApp	StatelessWidget	Merupakan akar aplikasi. Mendefinisikan tema dan struktur dasar (MaterialApp).
-     ShoppingListPage	StatefulWidget	Widget utama yang menampung tampilan layar. Dibuat sebagai StatefulWidget karena konten (daftar belanja) akan berubah.
-     ShoppingListPageState	State Class	Kelas ini menyimpan data yang dapat berubah (_items) dan logika yang memanipulasi data tersebut (_addItem, _removeItem).
+
+ShoppingListApp	StatelessWidget	Merupakan akar aplikasi. Mendefinisikan tema dan struktur dasar (MaterialApp).
+     
+ShoppingListPage	StatefulWidget	Widget utama yang menampung tampilan layar. Dibuat sebagai StatefulWidget karena konten (daftar belanja) akan berubah.
+     
+ShoppingListPageState	State Class	Kelas ini menyimpan data yang dapat berubah (_items) dan logika yang memanipulasi data tersebut (_addItem, _removeItem).
 
 # Contoh Tampilan
-![Image](Screenshot 2025-10-29 103348.png)
+(https://github.com/sellyjuanalyaaa/Flutter_PraktikumPemob_H1D023006/blob/main/Screenshot%202025-10-29%20103348.png)
    
