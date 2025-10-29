@@ -1,17 +1,27 @@
-# coba_kelasa
+# Aplikasi Manajemen Daftar Belanja Sederhana
 
-A new Flutter project.
+Aplikasi mobile lintas platform (cross-platform) sederhana yang dikembangkan menggunakan Flutter (Dart) untuk mengelola daftar belanja. Aplikasi ini memungkinkan pengguna untuk menambah dan menghapus item secara langsung di antarmuka.
 
-## Getting Started
+# Sellyjuan Alya Rosalina H1D023006 SHIFT A/C
 
-This project is a starting point for a Flutter application.
+# Fitur Aplikasi
+Aplikasi ini berfokus pada fungsionalitas inti:
 
-A few resources to get you started if this is your first Flutter project:
+Tambah Item: Memungkinkan pengguna memasukkan dan menambahkan item baru ke daftar.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Hapus Item: Menyediakan tombol hapus (Icons.delete) di samping setiap item.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Flutter_PraktikumPemob_H1D023006" 
+Tampilan Daftar Dinamis: Daftar diperbarui secara real-time (seketika) saat item ditambahkan atau dihapus.
+
+Notifikasi Kosong: Menampilkan pesan saat daftar belanja kosong.
+
+# Cara Kerja Pengembangan Kode
+Pengembangan aplikasi ini mengikuti prinsip dasar widget-based dari Flutter dan menggunakan manajemen status lokal:
+Komponen Utama (Widget Hierarchy)
+     ShoppingListApp	StatelessWidget	Merupakan akar aplikasi. Mendefinisikan tema dan struktur dasar (MaterialApp).
+     ShoppingListPage	StatefulWidget	Widget utama yang menampung tampilan layar. Dibuat sebagai StatefulWidget karena konten (daftar belanja) akan berubah.
+     ShoppingListPageState	State Class	Kelas ini menyimpan data yang dapat berubah (_items) dan logika yang memanipulasi data tersebut (_addItem, _removeItem).
+
+# Contoh Tampilan
+![Image](Screenshot 2025-10-29 103348.png)
+   
